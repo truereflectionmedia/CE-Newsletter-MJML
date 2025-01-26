@@ -1,0 +1,29 @@
+<mj-section
+  ><mj-column mj-class="fullWidth"
+    ><mj-text mj-class="sectionTitle">Latest News</mj-text
+    ><mj-spacer /></mj-column
+  >$insert
+  <mj-column mj-class="fullWidth"
+    ><mj-text mj-class="regularText" align="right"
+      ><a class="text-link" href="https://www.countryeverywhere.com/news"
+        >View All News</a
+      ></mj-text
+    ></mj-column
+  ></mj-section
+>
+// no spacing for xano transfer
+<mj-section><mj-column mj-class="fullWidth"><mj-text mj-class="sectionTitle">Latest News</mj-text><mj-spacer /></mj-column>$insert              <mj-column mj-class="fullWidth"><mj-text mj-class="regularText" align="right"><a class="text-link" href="https://www.countryeverywhere.com/news">View All News</a></mj-text></mj-column></mj-section>
+
+// news for $insert
+
+<mj-column mj-class="fullWidth"
+  ><mj-text mj-class="itemTitle">$newsTitle</mj-text
+  ><mj-text mj-class="greenText">$publication | $author</mj-text
+  ><mj-text mj-class="regularText">$summary</mj-text
+  ><mj-spacer height="10px" />
+  <mj-button mj-class="button" href="$newsURL">Read Article</mj-button>
+  <mj-spacer height="10px"
+/></mj-column>
+
+// no spacing for xano transfer
+<mj-column mj-class="fullWidth"><mj-text mj-class="itemTitle">$newsTitle</mj-text><mj-text mj-class="greenText">$publication | $author</mj-text><mj-text mj-class="regularText">$summary</mj-text><mj-spacer height="10px" />         <mj-button mj-class="button" href="$newsURL">Read Article</mj-button>         <mj-spacer height="10px" /></mj-column>
